@@ -20,17 +20,22 @@ The above mentioned changes boosted the overall ODS and OIS compared to implemen
 |meteorshowers[4]| 0.790 | 0.809 |
 | Reference[1]| 0.798 | 0.815  |
 
+### Sample Output
+
 Left   : Image output from meteorshowers
+
 Right  : Image output from our repo
 
-<p float="left">
-  <img src="/results/43051_meteorshowers.png" width="300" />
-  <img src="/results/43051_ours.png" width="300" />
-</p>
 
 <p float="left">
-  <img src="/results/8068_meteorshowers.png" width="300" />
-  <img src="/results/8068_ours.png" width="300" />
+  <img src="/results/43051_meteorshowers.png" width="500" />
+  <img src="/results/43051_ours.png" width="500" />
+</p>
+
+
+<p float="left">
+  <img src="/results/8068_meteorshowers.png" width="500" />
+  <img src="/results/8068_ours.png" width="500" />
 </p>
 
 
