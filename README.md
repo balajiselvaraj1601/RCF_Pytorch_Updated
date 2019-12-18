@@ -30,16 +30,16 @@ From Left to Right  :
         3. Image output from our repo
 
 <p float="left">
-  <img src="/results/43051.jpg" width="300" />
-  <img src="/results/43051_meteorshowers.png" width="300" />
-  <img src="/results/43051_ours.png" width="300" />
+  <img src="/results/43051.jpg" width="250" />
+  <img src="/results/43051_meteorshowers.png" width="250" />
+  <img src="/results/43051_ours.png" width="250" />
 </p>
 
 
 <p float="left">
-  <img src="/results/8068.jpg" width="300" />
-  <img src="/results/8068_meteorshowers.png" width="300" />
-  <img src="/results/8068_ours.png" width="300" />
+  <img src="/results/8068.jpg" width="250" />
+  <img src="/results/8068_meteorshowers.png" width="250" />
+  <img src="/results/8068_ours.png" width="250" />
 </p>
 
 
