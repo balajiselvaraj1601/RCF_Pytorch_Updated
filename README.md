@@ -21,12 +21,10 @@ The above mentioned changes boosted the overall ODS and OIS compared to implemen
 | Reference[1]| 0.798 | 0.815  |
 
 
-![alt-text-1](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/43051_meteorshowers.png "meteorshowers")
-![alt-text-2](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/43051_ours.png "ours")
+![alt-text-1](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/43051_meteorshowers.png "meteorshowers") ![alt-text-2](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/43051_ours.png "ours")
 
 
-![alt-text-1](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/8068_meteorshowers.png "meteorshowers")
-![alt-text-2](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/8068_ours.png "ours")
+![alt-text-1](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/8068_meteorshowers.png "meteorshowers") ![alt-text-2](https://github.com/balajiselvaraj1601/RCF_Pytorch_Updated/blob/master/results/8068_ours.png "ours")
 
 
 ### Dataset
