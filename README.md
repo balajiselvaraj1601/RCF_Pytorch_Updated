@@ -20,6 +20,8 @@ The above mentioned changes boosted the overall ODS and OIS compared to implemen
 |meteorshowers[4]| 0.790 | 0.809 |
 | Reference[1]| 0.798 | 0.815  |
 
+Left   : Image output from meteorshowers
+Right  : Image output from our repo
 
 <p float="left">
   <img src="/results/43051_meteorshowers.png" width="300" />
@@ -52,6 +54,8 @@ After training, to evaluate:
         We have used the pipeline suggested by [2]. It's very fast compared to the boundarbench approach suggested in [1]
         The results would vary by about 0.001 due to usage of approach [2], due to different parameter values used in NMS estimation
 
+### To do
+To reach the ODS and OIS score mentioned in the paper
 
 ### Acknowledgements:
 
