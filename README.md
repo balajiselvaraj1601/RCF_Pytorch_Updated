@@ -5,8 +5,10 @@ There were minor performance fixes introduced in this implementation.
 Major Chances are as follows
 1. Fixing the weights of the upsampling layer [based on work by Weijian Xu for PyTorch HED  implementation]
 2. Setting the parameters of weight_deconv5 as shown below [based on Original RCF Implementation]
+        
         # self.weight_deconv5 =  make_bilinear_weights(32, 1).cuda()   
         self.weight_deconv5 =  make_bilinear_weights(16, 1).cuda()
+        
 3. Setting the initial value of fuse layer as 0.20 [based on Original RCF Implementation]
 4. Modified the crop layer [based on BDCN implementation]
 
@@ -22,20 +24,22 @@ The above mentioned changes boosted the overall ODS and OIS compared to implemen
 
 ### Sample Output
 
-Left   : Image output from meteorshowers
-
-Right  : Image output from our repo
-
+From Left to Right  : 
+        1. Original image
+        2. Image output from meteorshowers
+        3. Image output from our repo
 
 <p float="left">
-  <img src="/results/43051_meteorshowers.png" width="400" />
-  <img src="/results/43051_ours.png" width="400" />
+  <img src="/results/43051.png" width="200" />
+  <img src="/results/43051_meteorshowers.png" width="200" />
+  <img src="/results/43051_ours.png" width="200" />
 </p>
 
 
 <p float="left">
-  <img src="/results/8068_meteorshowers.png" width="400" />
-  <img src="/results/8068_ours.png" width="400" />
+  <img src="/results/8068.png" width="200" />
+  <img src="/results/8068_meteorshowers.png" width="200" />
+  <img src="/results/8068_ours.png" width="200" />
 </p>
 
 
