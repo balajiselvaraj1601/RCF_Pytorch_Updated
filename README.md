@@ -14,6 +14,8 @@ Major Chances are as follows
 
 The above mentioned changes boosted the overall ODS and OIS compared to implementation by XuanyiLi.
 
+
+
 ### Results on BSDS Dataset alone
 
 | Method |ODS F-score on BSDS500 dataset |OIS F-score on BSDS500 dataset|
@@ -21,6 +23,8 @@ The above mentioned changes boosted the overall ODS and OIS compared to implemen
 |ours| 0.794 | 0.811 |
 |meteorshowers[4]| 0.790 | 0.809 |
 | Reference[1]| 0.798 | 0.815  |
+
+
 
 ### Sample Output
 
@@ -46,6 +50,8 @@ From Left to Right  :
 ### Dataset
 To download dataset, kindly follow the procedure as mentioned in [1]
 
+
+
 ### Usage
 
 #### Edge Detection Pipeline
@@ -63,8 +69,11 @@ After training, to evaluate:
         We have used the pipeline suggested by [2]. It's very fast compared to the boundarbench approach suggested in [1]
         The results would vary by about 0.001 due to usage of approach [2], due to different parameter values used in NMS estimation
 
+
 ### To do
 To reach the ODS and OIS score mentioned in the paper
+
+
 
 ### Acknowledgements:
 
@@ -75,6 +84,7 @@ To reach the ODS and OIS score mentioned in the paper
 [3] <a href="https://github.com/pkuCactus/BDCN">BDCN Implementation</a> 
 
 [4] <a href="https://github.com/meteorshowers/RCF-pytorch">RCF PyTorch Implementation</a>
+
 
 
 ### Citations
