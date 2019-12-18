@@ -28,14 +28,14 @@ Right  : Image output from our repo
 
 
 <p float="left">
-  <img src="/results/43051_meteorshowers.png" width="500" />
-  <img src="/results/43051_ours.png" width="500" />
+  <img src="/results/43051_meteorshowers.png" width="400" />
+  <img src="/results/43051_ours.png" width="400" />
 </p>
 
 
 <p float="left">
-  <img src="/results/8068_meteorshowers.png" width="500" />
-  <img src="/results/8068_ours.png" width="500" />
+  <img src="/results/8068_meteorshowers.png" width="400" />
+  <img src="/results/8068_ours.png" width="400" />
 </p>
 
 
