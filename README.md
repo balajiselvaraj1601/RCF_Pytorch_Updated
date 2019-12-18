@@ -1,9 +1,12 @@
 # RCF_Pytorch_Updated
-Pytorch implementation of RCF. This PyTorch implementation is based on awesome implementation by XuanyiLi.
-There were minor performance fixes introduced in this implementation.
+Pytorch re-implementation of RCF. This PyTorch implementation is based on awesome implementation by XuanyiLi.
+There were minor performance fixes made in this implementation.
 
-Major Chances are as follows
+Major Changes are as follows
 1. Fixing the weights of the upsampling layer [based on work by Weijian Xu for PyTorch HED  implementation]
+   
+        Initializing the value of upsampling layer each time during training would make the training less stable. In this repo, the upsampling layer weights get initialized only during the model initialization step.
+
 2. Setting the parameters of weight_deconv5 as shown below [based on Original RCF Implementation]
         
         # self.weight_deconv5 =  make_bilinear_weights(32, 1).cuda()   
@@ -29,8 +32,11 @@ The above mentioned changes boosted the overall ODS and OIS compared to implemen
 ### Sample Output
 
 From Left to Right  : 
+
         1. Original image
+        
         2. Image output from meteorshowers
+        
         3. Image output from our repo
 
 <p float="left">
@@ -47,9 +53,10 @@ From Left to Right  :
 </p>
 
 
+As can be seen above, strong edges are detected properly with high confidence and less noise.
+
 ### Dataset
 To download dataset, kindly follow the procedure as mentioned in [1]
-
 
 
 ### Usage
@@ -66,7 +73,7 @@ If you have multiple GPUs on your machine, you can also run the multi-GPU versio
 
 After training, to evaluate:
 
-        We have used the pipeline suggested by [2]. It's very fast compared to the boundarbench approach suggested in [1]
+        We have used the pipeline suggested by [2]. It's very fast compared to the approach suggested in [1]
         The results would vary by about 0.001 due to usage of approach [2], due to different parameter values used in NMS estimation
 
 
