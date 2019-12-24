@@ -23,7 +23,7 @@ The above mentioned changes boosted the overall ODS and OIS compared to implemen
 
 | Method |ODS F-score on BSDS500 dataset |OIS F-score on BSDS500 dataset|
 |:---|:---:|:---:|
-|ours| 0.794 | 0.811 |
+|ours| 0.795 | 0.812 |
 |meteorshowers[4]| 0.790 | 0.809 |
 | Reference[1]| 0.798 | 0.815  |
 
