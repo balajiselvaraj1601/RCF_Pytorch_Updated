@@ -81,6 +81,10 @@ After training, to evaluate:
 To reach the ODS and OIS score mentioned in the paper
 
 
+### Notes
+Run for 10 epochs. That would be sufficient. You could get the mentioned score within 3-8 epochs itself.
+
+The log file of our training  [sgd-0-log.txt] can be viewed to check whether your training is proceeding in similar way.
 
 ### Acknowledgements:
 
