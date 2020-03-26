@@ -63,6 +63,10 @@ To download dataset, kindly follow the procedure as mentioned in [1]
 
 #### Edge Detection Pipeline
 
+To download the vgg16 pretrained backbone model. please click
+
+https://drive.google.com/file/d/1lUhPKKj-BSOH7yQL0mOIavvrUbjydPp5/view?usp=sharing
+
 To train a RCF model on BSDS500:
 
         python train_RCF.py
