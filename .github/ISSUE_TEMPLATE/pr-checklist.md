@@ -1,12 +1,3 @@
----
-name: PR checklist
-about: Following are key criteria to check before submitting a PR
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ## Things to verify before requesting a review
 
 - [ ] Kindly run `make init` to ensure that the environment is updated.
