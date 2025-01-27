@@ -7,8 +7,6 @@ import torch.autograd.variable as Variable
 import numpy as np
 import scipy.io as sio
 from os.path import join as pjoin
-#from skimage.transform import resize
-#from models import HiFi1Edge
 import skimage.io as io
 import time
 import skimage
